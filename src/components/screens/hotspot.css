@@ -1,0 +1,102 @@
+.outerBox {
+  position: absolute;
+  width: 700px;
+  height: 800px;
+
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+
+.map_Garbage {
+  position: absolute;
+  width: 700px;
+  height: 84px;
+
+  background: #ffffff;
+}
+
+.checkin_box {
+  position: absolute;
+  width: 700px;
+  height: 80px;
+
+  background: linear-gradient(90deg, #2cbbe8 0%, rgba(79, 191, 226, 0.4) 100%);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.arrow {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+
+  background: url(right-arrow(2).png);
+}
+
+.checkin {
+  position: absolute;
+  width: 139px;
+  height: 18px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 18px;
+  /* identical to box height, or 75% */
+
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.navi {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+
+  background: url(placeholder.png);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.headtext {
+  /*   Apply on PERCENTAGE and Distance font */
+  position: absolute;
+  width: 118.19px;
+  height: 18px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 18px;
+  /* identical to box height, or 72% */
+
+  text-transform: lowercase;
+
+  color: #000000;
+}
+
+.bottext {
+  position: absolute;
+  width: 139px;
+  height: 18px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  text-transform: lowercase;
+
+  color: #000000;
+}
+
+.line {
+  position: absolute;
+  width: 84px;
+  height: 0px;
+
+  border: 1px solid #d3c4c4;
+  transform: rotate(90deg);
+}

@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Merriweather:ital@1&family=Montserrat:ital,wght@1,500&display=swap");
+a {
+  color: black !important;
+}
+.brand-logo,
+h2 {
+  font-family: "Gill Sans";
+}
+.mycard {
+  margin-top: 30px;
+}
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid rgb(90, 127, 221) !important;
+  box-shadow: 0 1px 0 0 rgb(90, 127, 221) !important;
+}
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid rgb(90, 127, 221) !important;
+  box-shadow: 0 1px 0 0 rgb(90, 127, 221) !important;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item {
+  width: 30%;
+}
+.collection-item {
+  width: 100%;
+}
+.home-card {
+  max-width: 750px;
+  height: max-content;
+  margin: 26px auto;
+}
+#toast-container {
+  top: 50px;
+  left: auto;
+  right: 30px;
+}
+.material-icons:hover {
+  cursor: pointer;
+}
+.content {
+  position: absolute;
+  /* width: 100%;
+  height: 100%; */
+  top: 30%;
+  left: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.cardslo {
+  opacity: 0.8%;
+}
+.back {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(113, 202, 91, 0.842),
+    rgba(40, 180, 133, 0.801)
+  );
+}
+.navbtn {
+  background: #ee6e73;
+  border: 1.5px solid #ffffff;
+  border-radius: 44px;
+  padding: 13px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  /* font-style: normal; */
+  /* margin-top: 15px; */
+  /* height: 40px; */
+  /* border: solid 0.09rem; */
+  /* text-shadow: 0 0 0.8rem #999, 0 0 0.15rem #999; */
+  box-shadow: 5px 10px;
+  /* border: 0.1rem outset #999; */
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+.navbtn2 {
+  font-family: "Montserrat";
+}
+.lgbt {
+  margin-right: 10px;
+  margin-left: 17px;
+}
+.mysec {
+  box-shadow: 5px 10px;
+  font-family: "Montserrat";
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+.mysec2 {
+  box-shadow: 2px 4px;
+  font-family: "Montserrat";
+  -webkit-box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+}
+.mysec3 {
+  box-shadow: 2px 4px 4px 8px;
+  font-family: "Montserrat";
+  -webkit-box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+}
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: 0px;
+  background: #ff0000;
+  height: 4px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+#box:hover {
+  box-shadow: 4px 4px 4px 1px#5e5e61;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.04);
+}
+
+.box {
+  box-shadow: 4px 4px 4px 1px#5c5c5e;
+}
+
+.roundedPill {
+  background-color: #ddd;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.test {
+  color: #f8f6f6;
+}
+
+.myhov:hover {
+  background-color: #dddddd;
+}
